@@ -6,4 +6,8 @@
 definePageMeta({
   layout: "another",
 });
+
+useHead({
+  titleTemplate: "%s - About",
+});
 </script>

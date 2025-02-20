@@ -14,5 +14,10 @@
     "nuxt": "^3.15.4",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.10.1",
+    "@vueuse/nuxt": "^12.7.0",
+    "pinia-plugin-persistedstate": "^4.2.0"
   }
 }

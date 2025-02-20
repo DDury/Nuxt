@@ -1,14 +1,11 @@
 <template>
-    <nav>
-        <ul>
-          <li>
-            <NuxtLink to="/">Main page</NuxtLink>
-          </li>
-          <li>
-            <NuxtLink to="about">About page</NuxtLink>
-          </li>
-        </ul>
-      </nav>
-      This is another layout!
-      <slot></slot>
-    </template>
+  <div class="container mx-auto max-w-2xl">
+    <header class="flex justify-between mt-10">
+      <div>
+        This is another layout!
+        <slot></slot>
+      </div>
+      <Menu />
+    </header>
+  </div>
+</template>

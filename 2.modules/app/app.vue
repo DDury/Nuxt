@@ -1,6 +1,9 @@
 <template>
   <NuxtLayout>
-    <NuxtPage></NuxtPage>
+    <div class="text-red-500 text-2xl">
+      Hello Tailwind!
+      <NuxtPage class="underline decoration-dotted"></NuxtPage>
+    </div>
   </NuxtLayout>
 </template>
 
