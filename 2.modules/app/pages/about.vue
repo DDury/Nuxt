@@ -8,6 +8,6 @@ definePageMeta({
 });
 
 useHead({
-  titleTemplate: "%s - About",
+  titleTemplate: "%s - about",
 });
 </script>
