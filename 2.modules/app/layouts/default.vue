@@ -22,7 +22,7 @@
 useHead({
   // as a string,
   // where `%s` is replaced with the title
-  title: "default layout",
+titleTemplate : '%s - default',
   link: [
     {
       rel: "preconnect",
