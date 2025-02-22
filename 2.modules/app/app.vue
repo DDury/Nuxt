@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <div class="text-red-500 text-2xl underline decoration-dotted">
+    <div class="text-cyon-500 text-xl underline decoration-dotted">
       <NuxtPage></NuxtPage>
     </div>
   </NuxtLayout>
