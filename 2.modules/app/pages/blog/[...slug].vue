@@ -1,6 +1,4 @@
-<template>
-  <ContentDoc v-if="slug" :path="`/blog/${slug}`" />
-</template>
+<template></template>
 
 <script setup>
 const route = useRoute();

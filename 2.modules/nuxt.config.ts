@@ -19,4 +19,14 @@ export default defineNuxtConfig({
   tailwindcss: {
     exposeConfig: true, // Tailwind 설정을 UI에서 접근 가능하도록 함
   },
+  app: {
+    pageTransition: {
+      name: "fade",
+      mode: "out-in", // 기본값
+    },
+    layoutTransition: {
+      name: "slide",
+      mode: "out-in", // 기본값
+    },
+  },
 });

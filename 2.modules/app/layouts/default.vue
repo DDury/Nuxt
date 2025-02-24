@@ -1,12 +1,9 @@
 <template>
-  <div class="container mx-auto max-w-2xl flex justify-between mt-10">
-    <Menu />
-  </div>
-  <header class="flex justify-between mt-10">
-    <div class="container mx-auto max-w-2xl">
+  <Transition name="slide" mode="out-in">
+    <div class="container mx-auto max-w-2xl flex justify-between mt-10">
       <slot></slot>
     </div>
-  </header>
+  </Transition>
 </template>
 
 <script setup>
