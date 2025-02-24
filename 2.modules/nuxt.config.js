@@ -7,9 +7,7 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   extends: ["@nuxt/ui-pro"],
-  uiPro: {
-    license: "D0281163-6FB3-45CB-B1B0-30A7881F4D5C",
-  },
+
   modules: [
     "@nuxtjs/tailwindcss",
     "@pinia/nuxt",
